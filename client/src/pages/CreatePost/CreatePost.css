@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: 3px solid purple;
+    background-color: khaki;
+}

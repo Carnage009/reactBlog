@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.header-logo{
+    width: 7%;
+}
+.header nav div{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    color: black;
+}
+.header nav a{
+    text-decoration: none;
+    margin-right: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+.header nav li:hover{
+    color: white;
+}
+.header-btns{
+    display: flex;
+}
+.btn{
+    height: 30px;
+    background-color: blueviolet;
+    font-size: 18px;
+    border: 1.5px solid black;
+    margin-right: 10px;
+    color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

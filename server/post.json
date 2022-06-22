@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "title": "4enan aliev",
+      "descr": "4etvert'",
+      "category": "4eloveka",
+      "id": 1
+    },
+    {
+      "title": "4u4ak",
+      "descr": "4enan",
+      "category": "4u4akovi4",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Кенан",
+      "age": 22,
+      "photo": "https://avatars.githubusercontent.com/u/69459283?v=4"
+    },
+    {
+      "id": 2,
+      "name": "Amir",
+      "age": 25,
+      "photo": "http://m.asiaterra.info/images/remote/images-2016-akhmadijtsy-i-takfirity-eretiki-i-fashisty-islama-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Almaz",
+      "age": 19,
+      "photo": "https://st-1.akipress.org/st_gallery/26/804026.2041574c8790fc5b952b34301d1362bc.500.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cheena",
+      "age": 20,
+      "photo": "https://sun9-23.userapi.com/sun9-55/s/v1/if1/x3glDQfQxJ3XOV6aELeiusuhUGsmMtpSFc0FgoKat4aAspNSkwXQeaVKiXSGo5CteLseaWR0.jpg?size=200x200&quality=96&crop=334,212,840,840&ava=1"
+    }
+  ]
+}
