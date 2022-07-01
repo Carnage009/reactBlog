@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "title": "kenan loh",
+      "descr": "el goroh",
+      "category": "bol'shoy",
+      "id": 5
+    },
+    {
+      "title": "loh",
+      "descr": "kenan",
+      "category": "akaevich",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Кенан",
+      "age": 22,
+      "photo": "https://avatars.githubusercontent.com/u/69459283?v=4"
+    },
+    {
+      "id": 2,
+      "name": "Amir",
+      "age": 25,
+      "photo": "http://m.asiaterra.info/images/remote/images-2016-akhmadijtsy-i-takfirity-eretiki-i-fashisty-islama-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Almaz",
+      "age": 19,
+      "photo": "https://st-1.akipress.org/st_gallery/26/804026.2041574c8790fc5b952b34301d1362bc.500.jpg"
+    },
+    {
+      "id": 4,
+      "name": "China",
+      "age": 20,
+      "photo": "https://sun9-23.userapi.com/sun9-55/s/v1/if1/x3glDQfQxJ3XOV6aELeiusuhUGsmMtpSFc0FgoKat4aAspNSkwXQeaVKiXSGo5CteLseaWR0.jpg?size=200x200&quality=96&crop=334,212,840,840&ava=1"
+    },
+    {
+      "email": "kenan@loshara.com",
+      "login": "kenan",
+      "password": "loshara",
+      "id": 5
+    },
+    {
+      "email": "islam@lohSnojom.kg",
+      "login": "real'niy",
+      "password": "lohsnojom",
+      "id": 6
+    },
+    {
+      "email": "",
+      "login": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "email": "",
+      "login": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "email": "test10@mail.ru",
+      "login": "lohin",
+      "password": "12345678",
+      "id": 9
+    },
+    {
+      "email": "kenan@psina.ru",
+      "login": "tote6epes",
+      "password": "psinablohastaya",
+      "id": 10
+    },
+    {
+      "email": "test1010@mail.ru",
+      "password": "12345678",
+      "id": 11
+    },
+    {
+      "email": "kenan@psina_001.ru",
+      "password": "$2a$10$.No7jUAj2CFdjMggDkqCau5wNRpBlkWsSay1.iwBnZ5IZRlfYQBuG",
+      "id": 12
+    },
+    {
+      "email": "islam@loh.kenan",
+      "password": "$2a$10$MSM.Wp9UbV98Jr2GdY/9u.ejEKM/CaWkYzFvtOY..3pOL19XOgbOa",
+      "id": 13
+    }
+  ]
+}
