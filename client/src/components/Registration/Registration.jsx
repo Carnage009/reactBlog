@@ -8,6 +8,7 @@ const Registration = () => {
   const [email, setEmail] = useState("");
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
+  const [age, setAge] = useState("")
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [message, setMessage] = useState(false)
 
@@ -19,13 +20,16 @@ const Registration = () => {
     e.preventDefault();
     axios
       .post("http://localhost:8888/users", {
-        email: email,
-        password: password,
+        email : email,
+        password : password,
+        login : login,
+        age : age
       })
       .then((data) => {
         setMessage("Вы успешно зарегистрировались")
         setEmail("");
         setLogin("");
+        setAge("");
         setPassword("");
       })
       .catch((error) => {
@@ -59,6 +63,14 @@ const Registration = () => {
           type={"text"}
           value={login}
           onChange={(e) => setLogin(e.target.value)}
+          variant="outlined"
+        />
+                <TextField
+          sx={{ width: "75%", marginBottom: 1 }}
+          label="age"
+          type={"text"}
+          value={age}
+          onChange={(e) => setAge(e.target.value)}
           variant="outlined"
         />
         <TextField

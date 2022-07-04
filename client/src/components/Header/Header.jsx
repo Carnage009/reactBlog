@@ -12,7 +12,9 @@ const Header = () => {
                 <div className='header-btns'>
                     <NavLink to="/auth/login" className='btn'>Войти и выйти приключение на 15 минут</NavLink>
                     <NavLink to="/auth/registration" className='btn'>Зарегистрироваться</NavLink>
+                    <p className="login-info"></p>
                 </div>
+                
     </header>
 
     );

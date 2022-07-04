@@ -6,6 +6,8 @@ import SnackbarComponent from "../Snackbar/Snackbar";
 
 const Login = () => {
   const [email, setEmail] = useState("");
+  const [login, setLogin] = useState("");
+  const [age, setAge] = useState("")
   const [password, setPassword] = useState("");
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [message, setMessage] = useState(false)
@@ -21,10 +23,12 @@ const Login = () => {
         email: email,
         password: password,
       })
-      .then((data) => {
+      .then((res) => {
         setMessage("Вы успешно вошли в Кенана")
         setEmail("");
         setPassword("");
+        setLogin(res.data.user.login)
+        setAge(res.data.user.age)
       })
       .catch((error) => {
         setMessage(error.response.data) 
@@ -69,6 +73,10 @@ const Login = () => {
           Зарегистрироваться
         </Button>
       </form>
+      <div className="user-info">
+        <p className="login-info">{login}</p>
+        <p className="age-info">{age}</p>
+      </div>
       <SnackbarComponent
         open={snackbarOpen}
         message={message}

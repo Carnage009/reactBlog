@@ -10,6 +10,7 @@ import Login from './components/Login/Login';
 import Auth from './pages/Auth/Auth'
 
 function App() {
+
   return (
     <div>
       <Header />
