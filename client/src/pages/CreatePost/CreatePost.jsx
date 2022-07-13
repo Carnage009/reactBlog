@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { Context } from "../../Context/Context";
 import "./CreatePost.css";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -7,13 +8,14 @@ import SnackbarComponent from "../../components/Snackbar/Snackbar";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import Select from '@mui/material/Select';
 
 const CreatePost = () => {
   const [title, setTitle] = useState("");
   const [descr, setDescr] = useState("");
   const [category, setCategory] = useState("");
   const [open, setOpen] = useState(false);
+  const {user} = useContext(Context)
 
   const handleChange = (event) => {
     setCategory(event.target.value);
@@ -33,6 +35,7 @@ const CreatePost = () => {
         title,
         descr,
         category,
+        author : user !== null ? user.email : "Вы успешно вошли в Кенана и ему понравилось"
       })
       .then(() => {
         setTitle("");

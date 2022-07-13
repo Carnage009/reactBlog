@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
 import axios from "axios";
 import SnackbarComponent from "../Snackbar/Snackbar";
+import { Context } from "../../Context/Context";
 
 const Login = () => {
   const [email, setEmail] = useState("");
-  const [login, setLogin] = useState("");
-  const [age, setAge] = useState("")
   const [password, setPassword] = useState("");
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [message, setMessage] = useState(false)
+  const {dispatch} = useContext(Context)
 
   const handleSnackbarClose = () => {
     setSnackbarOpen(false)
@@ -25,13 +25,13 @@ const Login = () => {
       })
       .then((res) => {
         setMessage("Вы успешно вошли в Кенана")
-        setEmail("");
-        setPassword("");
-        setLogin(res.data.user.login)
-        setAge(res.data.user.age)
+        setEmail("")
+        setPassword("")
+        dispatch({type : "LOGIN_SUCCESS", payload : res.data.user})
+        console.log(res.data.user);
       })
-      .catch((error) => {
-        setMessage(error.response.data) 
+      .catch(err => {
+        setMessage(err.response.data) 
       })
       .finally(() => {
         setSnackbarOpen(true)
@@ -74,8 +74,8 @@ const Login = () => {
         </Button>
       </form>
       <div className="user-info">
-        <p className="login-info">{login}</p>
-        <p className="age-info">{age}</p>
+        <p className="login-info"></p>
+        <p className="age-info"></p>
       </div>
       <SnackbarComponent
         open={snackbarOpen}

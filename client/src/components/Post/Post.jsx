@@ -11,6 +11,7 @@ const Post = (props) => {
       </Link>
       <p className="descr">Описание: {props.descr}</p>
       <p className="category">Категория: {props.category}</p>
+      <p className="author">Автор: {props.author}</p>
       <Button
               variant="outlined"
               color="error"

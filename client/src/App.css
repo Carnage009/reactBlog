@@ -1,8 +1,13 @@
+.post-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .post{
-  width: 40%;
+  width: 30%;
   padding: 50px;
-  background-color: #f2f2f2;
-  border-radius: 10px;
+  background-color: gainsboro;
+  border-radius: 15px;
   margin: 10px;
 }
 .header{

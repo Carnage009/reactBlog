@@ -106,6 +106,9 @@ const SinglePost = () => {
             <Typography variant="body2" color="text.secondary">
               {post.category}
             </Typography>
+            <Typography variant="body2" color="text.secondary">
+              {post.author}
+            </Typography>
           </CardContent>
           <CardActions>
             <Button

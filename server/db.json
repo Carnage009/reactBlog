@@ -1,18 +1,6 @@
 {
   "posts": [
     {
-      "title": "Кенан",
-      "descr": "Лучший",
-      "category": 1,
-      "id": 7
-    },
-    {
-      "title": "лумпа",
-      "descr": "умпа",
-      "category": 1,
-      "id": 8
-    },
-    {
       "title": "ebat'",
       "descr": "ty kone4no",
       "category": 0,
@@ -23,6 +11,61 @@
       "descr": "mashina",
       "category": 0,
       "id": 10
+    },
+    {
+      "title": "arsen",
+      "descr": "mashina",
+      "category": 0,
+      "id": 11
+    },
+    {
+      "title": "hello",
+      "descr": "4u4ak",
+      "category": 1,
+      "id": 12
+    },
+    {
+      "title": "ke",
+      "descr": "world",
+      "category": 0,
+      "id": 13
+    },
+    {
+      "title": "r",
+      "descr": "nan",
+      "category": 1,
+      "id": 14
+    },
+    {
+      "title": "hello",
+      "descr": "f",
+      "category": 1,
+      "id": 15
+    },
+    {
+      "title": "e",
+      "descr": "ke",
+      "category": 0,
+      "id": 16
+    },
+    {
+      "title": "по жизни",
+      "descr": "4ort",
+      "category": 1,
+      "id": 17
+    },
+    {
+      "title": "nan",
+      "descr": "loh",
+      "category": 0,
+      "id": 18
+    },
+    {
+      "title": "anan",
+      "descr": "loh",
+      "category": 0,
+      "author": "kenan@neSobaka.ru",
+      "id": 19
     }
   ],
   "comments": [],
@@ -111,6 +154,13 @@
       "login": "kenan",
       "age": "22",
       "id": 14
+    },
+    {
+      "email": "is@200t.ru",
+      "password": "$2a$10$1yxXa1IQ3ZZGxDZvoDmkY.XoIWwJFA8JnzK5etsq849eDKp/mQjTe",
+      "login": "is200t",
+      "age": "7",
+      "id": 15
     }
   ]
 }
